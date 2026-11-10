@@ -2,7 +2,7 @@
 
 Use the working directory confirmed by the main skill for all findings.
 
-Apply the main skill's existing-artifact checkpoint to this phase: `projects.html`, `stats.html`, `projects.index.json`, and `projects.headers.json`. Reuse valid artifacts when selected; create missing artifacts or restart the selected step. Open the browser only when page collection is needed.
+This checkpoint produces `projects.html`, `stats.html`, `projects.index.json`, and `projects.headers.json`. When restarted, download fresh pages and rebuild both indexes. Refresh any derived statistics JSON used by analysis so it cannot override the fresh `stats.html`. When this checkpoint is preserved, skip browser collection and indexing.
 
 Use computer use in the user's **existing active browser** throughout this phase. Inspect the open browsers and tabs through the computer-use tools, then use the browser the user is currently using, preserving its profile and session.
 
